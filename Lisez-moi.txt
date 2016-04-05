@@ -1,0 +1,3 @@
+/!\ Pour des raisons de clarté, un classeur MONEY WATCHER ne fonctionne que sur la durée d'un an.
+Lorsque vous passez à une nouvelle année, dupliquez le document "MONEYWATCHER - DOCUMENT ORIGINAL.xlsm" et nommez-le "MONEYWATCHER [année en cours]".
+/!\ NE REMPLISSEZ JAMAIS DIRECTEMENT LE DOCUMENT "MONEYWATCHER - DOCUMENT VIERGE.xlsm" /!\

@@ -1,0 +1,164 @@
+.bleu
+{
+	color:#565c93;
+}
+.titre
+{
+	font-size:50px;
+	font-family:'amatic sc',"times new roman","helvetica";
+	margin-top:0px;
+	margin-left:0px;
+	color:silver;
+	margin-top:5px;">
+}
+.pied
+{
+	text-align:center;
+	font-family:"times new roman","helvetica";
+	text-transform:uppercase;
+	font-size:10px;
+	line-height:12px;
+}
+.para
+{
+	background-image: url("blanc.png");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size:269px;
+	width:235px;
+	height:235px;
+	border:1px solid #ebebeb;
+	border-radius:3px;
+	padding:20px;
+	text-align:justify;
+	font-family:"times new roman","helvetica";
+	text-transform:uppercase;
+	font-size:10px;
+	line-height:12px;
+}
+.para2
+{
+	background-image: url("gris.png");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size:269px;
+	width:275px;
+	height:275px;
+	border:1px solid #ebebeb;
+	border-radius:3px;
+}
+.para3
+{
+	z-index:1;
+	padding:20px;
+	text-align:justify;
+	font-family:"times new roman","helvetica";
+	text-transform:uppercase;
+	font-size:10px;
+	line-height:12px;
+	height:229px;
+}
+.casimage
+{
+	width:269px;
+	border:1px solid #ebebeb;
+	padding:3px;
+	border-radius:3px;
+ }
+.casimage3
+ {
+ 	margin-top:-269px;
+	width:269px;
+	padding:3px;
+	opacity:1;
+	z-index:3;
+}
+.casimage2
+ {
+ 	margin-top:-269px;
+	width:269px;
+	padding:3px;
+	opacity:1;
+	transition: all 1s linear;
+	transition-duration: 0.7s;
+	z-index:3;
+}
+.casimage3:hover
+ {
+ 	margin-top:-269px;
+	width:269px;
+	padding:3px;
+	opacity: 0;
+	z-index:3;
+}
+.casimage2:hover
+ {
+ 	margin-top:-269px;
+	width:269px;
+	padding:3px;
+	opacity: 0;
+	transition: all 1s linear;
+	transition-duration: 0.7s;
+	z-index:3;
+}
+.etoile
+{
+	font-size:50px;
+	color:#565c93;
+	line-height:40px;
+	//font-smooth:always;
+}
+.rotation:hover
+{
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -moz-transition-property: all 1s linear;
+  -o-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  transition: all 1s linear;
+  transition-duration: 1.5s;
+}
+.rotation2:hover
+{
+	transform: rotate(360deg);
+	transition: all is linear;
+    transition-duration: 2s;
+}
+.rotation2
+{
+	transform: rotate(0deg);
+	transition: all is linear;
+    transition-duration: 2s;
+}
+.rotation
+{
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -moz-transition-property: all 1s linear;
+  -o-transition: all 1s linear;
+  -webkit-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  transition: all 1s linear;
+  display:inline-block;
+  transition-duration: 1.5s;
+}
+body
+{
+	background: url("fond5.png") fixed no-repeat bottom left, url("texture.png") fixed;
+	width:564px;
+	height:564;
+	margin-left: auto;
+	margin-right: auto;
+}
+ a
+ {
+	text-decoration: none;
+	color:#565c93;
+ }
